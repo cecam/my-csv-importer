@@ -27,6 +27,7 @@ export default function UploadPage() {
     if (response.ok) {
       const result = await response.json();
       setData(result);
+      console.log(result);
     } else {
       // Handle error
     }
